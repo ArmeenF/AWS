@@ -1,7 +1,59 @@
+.content {
+  margin: 1em
+}
+
+/* App.css */
+
 .App {
   text-align: center;
+  padding: 20px;
+}
+
+.navbar {
+  background-color: #333;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding: 10px;
+}
+
+.navbar-links {
+  margin-right: auto;
+}
+
+.navlink {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 18px;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.navlink:hover {
+  background-color: #555;
+}
+
+.navlink.active {
+  background-color: #555;
+}
+
+.social-link {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 10px;
+  font-size: 45px;
+}
+
+.social-link i {
+  font-size: 24px;
+}
+
+.social-link:hover {
+  opacity: 0.8;
 }
 
 .content {
-  margin: 1em
+  margin-top: 40px;
+  /* Adjust the value as per your desired spacing */
 }
