@@ -21,14 +21,14 @@ function App() {
               AWS Auth
             </NavLink>
           </div>
-          <a
+          {/* <a
             className="social-link"
             href="https://github.com/ArmeenF"
             target="_blank"
             rel="noopener noreferrer"
           >
             <FaGithubSquare  />
-          </a>
+          </a> */}
         </nav>
         <div className="content">
           <Routes>
