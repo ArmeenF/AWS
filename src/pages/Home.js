@@ -1,4 +1,4 @@
-import './page_styling/Home.css';
+import './page_styling/CSS/Home.css';
 import profilePicture from './page_styling/Images/Portrait.jpg'; // Assuming you have a profile picture file in the same directory
 
 const Home = () => {

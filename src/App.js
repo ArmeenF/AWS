@@ -3,6 +3,8 @@ import { BrowserRouter as Router, Routes, Route, NavLink } from 'react-router-do
 import Home from './pages/Home';
 import About from './pages/About';
 import PremiumPage from './pages/PremiumPage';
+import Scraper from './pages/Scraper';
+import PickupSoccer from './pages/PickupSoccer';
 import { FaGithubSquare, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 
 function App() {
@@ -20,6 +22,12 @@ function App() {
             <NavLink className="navlink" activeClassName="active" to="premium">
               AWS Auth
             </NavLink>
+            <NavLink className="navlink" activeClassName="active" to="scraper">
+              Scraper
+            </NavLink>
+            <NavLink className="navlink" activeClassName="active" to="pickupsoccer">
+            PickupSoccer
+            </NavLink>
           </div>
         </nav>
         <div className="content">
@@ -27,6 +35,8 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/premium" element={<PremiumPage />} />
+            <Route path="/scraper" element={<Scraper />} />
+            <Route path="/PickupSoccer" element={<PickupSoccer />} />
           </Routes>
         </div>
         <footer className="footer">

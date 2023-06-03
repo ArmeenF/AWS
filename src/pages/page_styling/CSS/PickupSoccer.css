@@ -1,0 +1,162 @@
+/* PickupSoccer.css */
+
+.team-form .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+}
+
+.team-form .form-group input[type="text"] {
+    margin-bottom: 0.5em;
+}
+
+.button {
+    border: solid 4px !important;
+    border-radius: 3em;
+    padding: 0 2.75em;
+    margin-top: 20px;
+    /* Add spacing above the button */
+    margin-bottom: 20px;
+    /* Add spacing below the button */
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+.button1 {
+    border: solid 4px !important;
+    border-radius: 3em;
+    padding: 0 2.75em;
+    top: 20px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    white-space: nowrap;
+    color: rgb(28, 226, 28);
+}
+
+.button2 {
+    border: solid 4px !important;
+    border-radius: 3em;
+    padding: 0 2.75em;
+    top: 20px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    white-space: nowrap;
+    color: blue;
+}
+
+.randomize-players {
+    color: rgb(28, 226, 28);
+}
+
+.fill-with-random-names {
+    color: blue;
+}
+
+/* arrow */
+.down-arrow {
+    color: red;
+    font-size: 48px;
+}
+
+.bounce {
+    display: inline-block;
+    position: relative;
+    -moz-animation: bounce 0.5s infinite linear;
+    -o-animation: bounce 0.5s infinite linear;
+    -webkit-animation: bounce 0.5s infinite linear;
+    animation: bounce 0.5s infinite linear;
+}
+
+@-webkit-keyframes bounce {
+    0% {
+        top: 0;
+    }
+
+    50% {
+        top: -0.2em;
+    }
+
+    70% {
+        top: -0.3em;
+    }
+
+    100% {
+        top: 0;
+    }
+}
+
+@-moz-keyframes bounce {
+    0% {
+        top: 0;
+    }
+
+    50% {
+        top: -0.2em;
+    }
+
+    70% {
+        top: -0.3em;
+    }
+
+    100% {
+        top: 0;
+    }
+}
+
+@-o-keyframes bounce {
+    0% {
+        top: 0;
+    }
+
+    50% {
+        top: -0.2em;
+    }
+
+    70% {
+        top: -0.3em;
+    }
+
+    100% {
+        top: 0;
+    }
+}
+
+@-ms-keyframes bounce {
+    0% {
+        top: 0;
+    }
+
+    50% {
+        top: -0.2em;
+    }
+
+    70% {
+        top: -0.3em;
+    }
+
+    100% {
+        top: 0;
+    }
+}
+
+@keyframes bounce {
+    0% {
+        top: 0;
+    }
+
+    50% {
+        top: -0.2em;
+    }
+
+    70% {
+        top: -0.3em;
+    }
+
+    100% {
+        top: 0;
+    }
+}
