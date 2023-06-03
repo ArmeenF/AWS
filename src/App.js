@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route, NavLink } from 'react-router-do
 import Home from './pages/Home';
 import About from './pages/About';
 import PremiumPage from './pages/PremiumPage';
-import { FaGithubSquare } from 'react-icons/fa';
+import { FaGithubSquare, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 
 function App() {
   return (
@@ -21,14 +21,6 @@ function App() {
               AWS Auth
             </NavLink>
           </div>
-          {/* <a
-            className="social-link"
-            href="https://github.com/ArmeenF"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FaGithubSquare  />
-          </a> */}
         </nav>
         <div className="content">
           <Routes>
@@ -37,6 +29,32 @@ function App() {
             <Route path="/premium" element={<PremiumPage />} />
           </Routes>
         </div>
+        <footer className="footer">
+          <a
+            className="social-link"
+            href="https://github.com/ArmeenF"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaGithubSquare />
+          </a>
+          <a
+            className="social-link"
+            href="https://www.linkedin.com/in/armeen-farange/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaLinkedin />
+          </a>
+          <a
+            className="social-link"
+            href="mailto:armeenfarange@yahoo.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaEnvelope />
+          </a>
+        </footer>
       </Router>
     </div>
   );
