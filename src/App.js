@@ -16,15 +16,15 @@ function App() {
             <NavLink className="navlink" exact activeClassName="active" to="/">
               Home
             </NavLink>
-            <NavLink className="navlink" activeClassName="active" to="about">
+            {/* <NavLink className="navlink" activeClassName="active" to="about">
               About
-            </NavLink>
+            </NavLink> */}
             <NavLink className="navlink" activeClassName="active" to="premium">
               AWS Auth
             </NavLink>
-            <NavLink className="navlink" activeClassName="active" to="scraper">
+            {/* <NavLink className="navlink" activeClassName="active" to="scraper">
               Scraper
-            </NavLink>
+            </NavLink> */}
             <NavLink className="navlink" activeClassName="active" to="pickupsoccer">
             PickupSoccer
             </NavLink>
@@ -33,9 +33,9 @@ function App() {
         <div className="content">
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
+            {/* <Route path="/about" element={<About />} /> */}
             <Route path="/premium" element={<PremiumPage />} />
-            <Route path="/scraper" element={<Scraper />} />
+            {/* <Route path="/scraper" element={<Scraper />} /> */}
             <Route path="/PickupSoccer" element={<PickupSoccer />} />
           </Routes>
         </div>
